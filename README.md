@@ -21,16 +21,34 @@ Praktikum yang dibahas mencakup dua materi utama:
 
 ---
 
-## Struktur File
+## Struktur Folder & File
 
 ```text
-├── Praktek 1 - EDA.ipynb                 # Notebook Praktek 1: Exploratory Data Analysis (EDA)
-├── Regresi LINEAR.ipynb                  # Notebook Regresi Linear Sederhana & Berganda
-├── healthcare-dataset-stroke-data.csv    # Dataset kasus medis stroke (untuk EDA)
-├── botak.csv                             # Dataset kasus probabilitas kebotakan (untuk Regresi Berganda)
-├── LAPORAN_PRAKTIKUM_MACHINE_LEARNING.md # Laporan lengkap hasil praktikum EDA & Regresi
+├── data/                                 # Seluruh dataset CSV praktikum
+│   ├── iris-flower.csv                   # Dataset klasifikasi bunga Iris
+│   ├── healthcare-dataset-stroke-data.csv # Dataset medis stroke untuk EDA
+│   └── botak.csv                         # Dataset probabilitas kebotakan untuk Regresi Berganda
+│
+├── notebooks/                            # Seluruh berkas Jupyter Notebook eksperimen
+│   ├── Praktek 1 - EDA.ipynb             # Notebook Praktikum 1: Exploratory Data Analysis (EDA)
+│   ├── Regresi LINEAR.ipynb              # Notebook Praktikum 2: Regresi Linear (Sederhana & Berganda)
+│   ├── Untitled.ipynb                    # Notebook Praktikum 3: Klasifikasi Decision Tree (Iris)
+│   └── web_scraping.ipynb                # Notebook latihan web scraping
+│
+├── laporan/                              # Berkas laporan, modul, dan aset dokumentasi
+│   ├── LAPORAN_PRAKTIKUM_MACHINE_LEARNING.docx
+│   ├── LAPORAN_PRAKTIKUM_MACHINE_LEARNING.md
+│   ├── MODUL_PEMBELAJARAN_MACHINE_LEARNING.docx
+│   ├── PANDUAN_MATERI_MACHINE_LEARNING.md
+│   ├── Laporan 1_..._Pembelajaran Mesin_H.pdf
+│   └── laporan_assets/                   # Tangkapan layar & grafik visualisasi untuk laporan
+│
+├── scripts/                              # Skrip utilitas otomasi Python
+│   ├── generate_laporan_docx.py          # Skrip penyusun laporan otomatis ke format Word
+│   └── generate_modul_docx.py            # Skrip penyusun modul praktikum Word
+│
 ├── .gitignore                            # Berkas pengecualian Git
-└── README.md                             # Dokumentasi repositori
+└── README.md                             # Dokumentasi utama repositori
 ```
 
 ---
